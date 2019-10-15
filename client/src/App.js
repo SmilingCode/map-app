@@ -112,7 +112,7 @@ class App extends React.Component {
             <Button 
               onClick={(e) => this.onFormSubmit(e)} 
               type="submit" color="info" 
-              disabled={!this.state.hasUserLocation || !this.state.userInfo.name || this.state.userInfo.message}
+              disabled={!this.state.hasUserLocation || !this.state.userInfo.name || !this.state.userInfo.message}
             >
               Send
             </Button>
