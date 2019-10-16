@@ -19,5 +19,10 @@ body {
   right: 10px;
   top: 10px;
   width: 310px;
-  height: 388px;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  height: 66%;
 }
